@@ -35,3 +35,4 @@ async def embed(req: EmbeddingRequest):
 @app.get("/")
 def root():
     return {"status": "MiniLM API running 🚀"}
+
